@@ -10,7 +10,7 @@
 
 
 
-![](https://www.tutorialspoint.com/data_structures_algorithms/images/stack_representation.jpg)
+![](C:\Users\DSM2018\Desktop\data-structure__algorithm\Image\stack_image.jpeg)
 
 스택(Stack)에서는 여러가지 기능이 있는데, Push와 Pop이 대표적이다.
 
@@ -48,6 +48,68 @@ Top 포인터가 Bottom 포인터의 크기보다 작아짐 : 스택 언더플�
 [스택 구현 코드](<https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/Stack/stack.c>)
 
 ### 큐(Queue)
+
+#### 의미
+
+> 1. (무엇을 기다리는 사람자동차 등의) 줄
+>
+> 2. 대기 행렬
+>
+> 3. 줄을 서서 기다리다
+
+컴퓨터의 기본적인 자료구조의 한가지로, 먼저 집어넣은 데이터가 가장 먼저 나오는 FIFO(First in First Out) 형식으로 저장하는 자료구조. 후입 선출(LIFO, Last in First Out) 방식인 스택과는 반대되는 개념을 가짐.
+
+#### 스택과 큐
+
+```
+스택과의 차이점 1
+스택에서는 push(insert)와 pop(delete)을 이용하여 구현
+큐에서는 put(insert)와 get(delete)를 이용해서 구현
+```
+
+```
+스택과의 차이점 2
+스택은 데이터의 위치를 top과 bottom으로 가리킴
+큐는 데이터의 위치를 front(head)와 rear(tail)로 가리킴
+```
+
+스택과 마찬가지로, 큐과 꽉 찬 상태에서 put하면 오버플로가 발생하고, 큐가 비어있는 상태에서 get하면 언더플로가 발생한다.
+
+
+
+ #### 종류
+
+큐에는 선형 큐와 원형 큐가 존재함.
+
+#### 선형 큐
+
+막대 모양으로 된 큐
+
+![](C:\Users\DSM2018\Desktop\data-structure__algorithm\Image\Queue.png)
+
+큐도 스택과 마찬가지로 크기가 제한되어 있기 때문에, get(delete)하면 앞부분이 남기 때문에, 모든 데이터를 앞으로 옮겨야한다는 단점이 존재한다.
+
+#### 원형 큐
+
+선형 큐의 단점인 데이터 공간이 남아잇지만 오버플로가 발생하는 경우, 그리고 모든 데이터를 앞으로 옮겨야 한다는 단점을 보완한 것이 원형 큐이다.
+
+rear가 맨 끝으로 이동하면 다시 맨 앞으로 보내 원형으로 계속 연결하는 방식이다.
+
+그러나 선형 큐의 단점을 보완한 원형 큐도 단점이 존재한다.
+
+![](C:\Users\DSM2018\Desktop\data-structure__algorithm\Image\Queue2.png)
+
+맨 데이터가 없는 상황은 왼쪽과 같은 상황이고, 데이터가 가득 차있는 상황은 오른쪽 상황이다.
+
+이때 Front와 Rear의 위치 관계가 둘 다 같기 때문에 가득 차있는 상황인지, 데이터가 없는 상황인지 확인할 수 없다. 
+
+이런 원형 큐의 구성을 바꾸어, 배열의 개수가 n개면 데이터의 개수가 n-1개면 큐가 가득 차있는 상태로 한 원형 큐가 만들어졌다.
+
+![](C:\Users\DSM2018\Desktop\data-structure__algorithm\Image\Queue3.png)
+
+n-1개만의 데이터로 큐를 구성하면 데이터가 없는 큐의 front/rear의 위치 관계를 비교할 수 있게 되면서 원형 큐의 문제를 해결할 수 있다.
+
+#### 덱(Deque)
 
 
 
