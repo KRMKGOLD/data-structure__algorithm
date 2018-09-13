@@ -45,7 +45,7 @@ Top 포인터가 스택의 크기보다 커짐 : 스택 오버플로(Stack Overf
 Top 포인터가 Bottom 포인터의 크기보다 작아짐 : 스택 언더플로(Stack Underflow)
 ```
 
-[스택 구현 코드](<https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/stack.c>)
+[스택 구현 코드](<https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/Stack/stack.c>)
 
 ### 큐(Queue)
 
