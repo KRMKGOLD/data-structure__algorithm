@@ -45,7 +45,7 @@ Top 포인터가 스택의 크기보다 커짐 : 스택 오버플로(Stack Overf
 Top 포인터가 Bottom 포인터의 크기보다 작아짐 : 스택 언더플로(Stack Underflow)
 ```
 
-[스택 구현 코드](<https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/Stack/stack.c>)
+[스택 구현 코드](<https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/Stack>)
 
 ### 큐(Queue)
 
@@ -74,8 +74,6 @@ Top 포인터가 Bottom 포인터의 크기보다 작아짐 : 스택 언더플�
 ```
 
 스택과 마찬가지로, 큐과 꽉 찬 상태에서 put하면 오버플로가 발생하고, 큐가 비어있는 상태에서 get하면 언더플로가 발생한다.
-
-
 
  #### 종류
 
@@ -131,7 +129,9 @@ n-1개만의 데이터로 큐를 구성하면 데이터가 없는 큐의 front/r
 
 ### 리스트(List)
 
+[단일, 이중 연결 리스트](https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/Stack)
 
+이동 후 README.md 읽으면서 소스 코드 확인
 
 ## 비선형 구조
 
