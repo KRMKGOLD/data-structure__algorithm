@@ -85,7 +85,13 @@ Top 포인터가 Bottom 포인터의 크기보다 작아짐 : 스택 언더플�
 
 ![](https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/Image/Queue.png?raw=true)
 
-큐도 스택과 마찬가지로 크기가 제한되어 있기 때문에, get(delete)하면 앞부분이 남기 때문에, 모든 데이터를 앞으로 옮겨야한다는 단점이 존재한다.
+큐도 스택과 마찬가지로 크기가 제한되어 있기 때문에, get(delete)하면 앞부분이 남는다.
+
+[선형 큐(이동 X) 코드](<https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/Queue/Queue.c>)
+
+선형 큐의 문제점이 이것, 큐가 꽉 차면 모든 데이터를 앞으로 옮기는 이동 큐로 사용할 수 있다.
+
+하지만 이동 큐도 비용이 만만치 않다는 단점이 존재한다.
 
 #### 원형 큐
 
