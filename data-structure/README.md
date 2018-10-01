@@ -10,7 +10,7 @@
 
 
 
-![](https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/Image/stack_image.jpeg?raw=true)
+![](https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/data-structure/Image/stack_image.jpeg?raw=true)
 
 스택(Stack)에서는 여러가지 기능이 있는데, Push와 Pop이 대표적이다.
 
@@ -83,7 +83,7 @@ Top 포인터가 Bottom 포인터의 크기보다 작아짐 : 스택 언더플�
 
 막대 모양으로 된 큐
 
-![](https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/Image/Queue.png?raw=true)
+![](https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/data-structure/Image/Queue.png?raw=true)
 
 큐도 스택과 마찬가지로 크기가 제한되어 있기 때문에, get(delete)하면 앞부분이 남는다.
 
@@ -101,7 +101,7 @@ rear가 맨 끝으로 이동하면 다시 맨 앞으로 보내 원형으로 계�
 
 그러나 선형 큐의 단점을 보완한 원형 큐도 단점이 존재한다.
 
-![](https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/Image/Queue2.png?raw=true)
+![](https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/data-structure/Image/Queue2.png?raw=true)
 
 맨 데이터가 없는 상황은 왼쪽과 같은 상황이고, 데이터가 가득 차있는 상황은 오른쪽 상황이다.
 
@@ -109,7 +109,7 @@ rear가 맨 끝으로 이동하면 다시 맨 앞으로 보내 원형으로 계�
 
 이런 원형 큐의 구성을 바꾸어, 배열의 개수가 n개면 데이터의 개수가 n-1개면 큐가 가득 차있는 상태로 한 원형 큐가 만들어졌다.
 
-![](https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/Image/Queue3.png?raw=true)
+![](https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/data-structure/Image/Queue3.png?raw=true)
 
 n-1개만의 데이터로 큐를 구성하면 데이터가 없는 큐의 front/rear의 위치 관계를 비교할 수 있게 되면서 원형 큐의 문제를 해결할 수 있다.
 
@@ -120,11 +120,11 @@ n-1개만의 데이터로 큐를 구성하면 데이터가 없는 큐의 front/r
 양 쪽 끝에서 삽입과 삭제가 모두 가능한, 큐와 스택을 합친 상태
 ```
 
-![](https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/Image/Deque.png?raw=true)
+![](https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/data-structure/Image/Deque.png?raw=true)
 
 
 
-![](https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/Image/Deque2.jpeg?raw=true)
+![](https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/data-structure/Image/Deque2.jpeg?raw=true)
 
 덱에는 두 가지 종류가 있는데, 스크롤과 셀프다.
 
@@ -138,6 +138,8 @@ n-1개만의 데이터로 큐를 구성하면 데이터가 없는 큐의 front/r
 [단일, 이중 연결 리스트](https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/Stack)
 
 이동 후 README.md 읽으면서 소스 코드 확인
+
+
 
 ## 비선형 구조
 
