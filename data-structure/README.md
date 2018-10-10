@@ -135,7 +135,7 @@ n-1개만의 데이터로 큐를 구성하면 데이터가 없는 큐의 front/r
 
 ### 리스트(List)
 
-[단일, 이중 연결 리스트](https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/Stack)
+[단일, 이중 연결 리스트](https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/List)
 
 이동 후 README.md 읽으면서 소스 코드 확인
 
@@ -145,6 +145,6 @@ n-1개만의 데이터로 큐를 구성하면 데이터가 없는 큐의 front/r
 
 ### 트리(Tree)
 
-
+[트리 구현 코드](https://github.com/KRMKGOLD/data-structure__algorithm/blob/master/Tree/)
 
 ### 그래프(Grape)
