@@ -1,22 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int main() {
+	srand(time(NULL));
 
-	int arr[9][9] = {
-		{22, 11, 80, 68, 1, 9, 50, 85, 69},
-		{33, 89, 23, 27, 40, 39, 66, 15, 7},
-		{51, 63, 18, 52, 32, 8, 74, 59, 25},
-		{82, 26, 79, 31, 60, 84, 42, 76, 14},
-		{41, 64, 24, 83, 35, 28, 90, 29, 81},
-		{36, 3, 20, 70, 43, 77, 2, 73, 67},
-		{17, 34, 71, 55, 38, 65, 12, 48, 10},
-		{20, 57, 16, 13, 37, 6, 45, 86, 30},
-		{88, 72, 58, 87, 19, 49, 78, 44, 75}
-	};
+	int arr[9][9];
 
 	int x, y;
 	int curX, curY, max = 0;
+
+	for (y = 0; y < 9; y++) {
+		for (x = 0; x < 9; x++) {
+			arr[x][y] = rand() % 1000;
+			printf("%3d ", arr[x][y]);
+		}
+		printf("\n");
+	}
+
+	printf("\n\n");
 
 	for (y = 0; y < 9; y++) {
 		for (x = 0; x < 9; x++) {
@@ -28,7 +30,7 @@ int main() {
 		}
 	}
 
-	printf("%d \n%d %d", max, curX, curY);
+	printf("%d \n%d %d", max, curX + 1, curY + 1);
 
 	system("pause");
 }
